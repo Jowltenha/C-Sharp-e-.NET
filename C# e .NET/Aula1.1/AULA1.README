@@ -1,0 +1,46 @@
+Aula 1 - Introdução ao Visual Studio e C#
+
+Na primeira aula fomos introduzidos ao Visual Studio e ao C#. Vimos como criar um projeto, entender a estrutura de arquivos e pastas, 
+e escrevemos nosso primeiro programa "Hello World", aula basica e leve para podermos nos acostumar com o C#.
+
+             
+ISSO A BAIXO É UM METODO, O PONTO DE ENTRADA DO PROGRAMA, NUNCA CHAMAR DE FUNÇÃO, FUNÇÃO É OUTRA COISA, METODO É O NOME CORRETO PARA O C#. 
+
+----------> "static void Main(string[] args)" 
+
+O NOME DO METODO É MAIN, ELE É O PONTO DE ENTRADA DO PROGRAMA, SEMPRE VAI SER CHAMADO QUANDO O PROGRAMA FOR EXECUTADO. 
+
+O TIPO DE RETORNO DO METODO É VOID, ISSO SIGNIFICA QUE ELE NÃO RETORNA NENHUM VALOR, ELE SIMPLESMENTE EXECUTA O CÓDIGO DENTRO DELE. 
+
+O NOME DO METODO É MAIN, ELE É O PONTO DE ENTRADA DO PROGRAMA, SEMPRE VAI SER CHAMADO QUANDO O PROGRAMA FOR EXECUTADO. 
+
+O PARAMETRO DO METODO É STRING[] ARGS, ISSO SIGNIFICA QUE ELE RECEBE UM ARRAY DE STRINGS COMO PARAMETRO, 
+ESSE ARRAY DE STRINGS PODE SER USADO PARA PASSAR ARGUMENTOS PARA O PROGRAMA QUANDO ELE FOR EXECUTADO. 
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DEPURAÇÃO:
+É O PROCESSO DE IDENTIFICAR E CORRIGIR ERROS EM UM PROGRAMA, PODE SER FEITO PELO MENU OU PELO ATALHO F9,
+O PROGRAMA VAI PARAR NA LINHA ONDE O PONTO DE INTERROGAÇÃO ESTIVER, E VOCÊ VAI PODER ANALISAR O VALOR DAS VARIÁVEIS E O FLUXO DO PROGRAMA.
+
+O CONSOLE SERA ABERTO E VAI SER PAUSADA A EXECUÇÃO DO PROGRAMA, VOCÊ VAI PODER ANALISAR O VALOR DAS VARIÁVEIS E O FLUXO DO PROGRAMA.
+PODEMOS USAR O F10 PARA AVANÇAR LINHA POR LINHA, O F11 PARA ENTRAR EM UM METODO, E O SHIFT + F11 PARA SAIR DE UM METODO.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+VARIÁVEIS:
+String : É UM TIPO DE DADO QUE ARMAZENA UMA SEQUÊNCIA DE CARACTERES, COMO PALAVRAS OU FRASES.
+Int : É UM TIPO DE DADO QUE ARMAZENA NÚMEROS INTEIROS, COMO 1, 2, 3, ETC.
+Double : É UM TIPO DE DADO QUE ARMAZENA NÚMEROS DECIMAIS, COMO 1.5, 2.5, ETC.
+Bool : É UM TIPO DE DADO QUE ARMAZENA VALORES VERDADEIROS OU FALSOS, COMO TRUE OU FALSE.
+Char : É UM TIPO DE DADO QUE ARMAZENA UM ÚNICO CARACTER, COMO 'A', 'B', 'C', ETC.
+https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/integral-numeric-types
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FORMAS DE IMPRIMIR NO CONSOLE:
+Console.WriteLine("Olá, Mundo!"); // Imprime uma linha no console e pula para a próxima linha.
+Console.Write("Olá, Mundo!"); // Imprime uma linha no console sem pular para a próxima linha.
+Console.WriteLine("Olá, " + "Mundo!"); // Imprime uma linha no console concatenando duas strings.
+Console.WriteLine($"Olá, {"Mundo!"}"); // Imprime uma linha no console usando interpolação de strings.
+Console.WriteLine($"Nome: {nome} \n Idade: {idade} \n Salário: {salario}"); // Imprime uma linha no console usando interpolação de strings e quebra de linha.
+Console.WriteLine(@$"Nome: {nome} Idade: {idade} Salário: {salario}");
