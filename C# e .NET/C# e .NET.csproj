@@ -6,7 +6,7 @@
     <RootNamespace>C__e_.NET</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>C__e_.NET.Aula1._1.Ex_Pratico4</StartupObject>
+    <StartupObject>C__e_.NET.Aula1._2.Ex_Pratico1</StartupObject>
   </PropertyGroup>
 
 </Project>

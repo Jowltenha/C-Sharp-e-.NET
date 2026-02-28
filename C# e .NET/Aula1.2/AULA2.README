@@ -1,0 +1,17 @@
+Aula 1.2("2") - Exercicios, conversões, if-else, switch, erros, operações aritméticas, datetime
+
+var ---> implicitamente tipada, o tipo é definido pelo valor atribuído;
+Recomendado usar os tipos explícitos para melhor legibilidade e manutenção do código;
+
+Intruções de nivel superior(top-level statements):
+	Syntax Sugar: Um atalho para simplificar a escrita de programas simples;
+---- REVISAR MELHOR ------------------------------------------------------------------------------------
+
+Conversões:
+	Conversão implícita: Ocorre quando o tipo de destino pode armazenar o valor do tipo de origem sem perda de dados;
+	Conversão explícita (casting): Necessária quando há risco de perda de dados ou quando os tipos não são compatíveis;
+	Exemplo:
+		int a = 10;
+		double b = a; // Conversão implícita
+		double c = 3.14;
+		int d = (int)c; // Conversão explícita (casting)
