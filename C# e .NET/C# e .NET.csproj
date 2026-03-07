@@ -9,4 +9,8 @@
     <StartupObject>C__e_.NET.Aula1._2.Ex_Pratico4</StartupObject>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Aula2.2\" />
+  </ItemGroup>
+
 </Project>
