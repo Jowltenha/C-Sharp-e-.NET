@@ -13,7 +13,7 @@ Int32, Int64, Double, String, etc. são aliases para os tipos primitivos do C#
 Conversões:
 	Conversão implícita: Ocorre quando o tipo de destino pode armazenar o valor do tipo de origem sem perda de dados;
 	Conversão explícita (casting): Necessária quando há risco de perda de dados ou quando os tipos não são compatíveis;
-	Exemplo:
+
 		int a = 10;
 		double b = a; // Conversão implícita
 		double c = 3.14;
@@ -35,7 +35,7 @@ se a conversão falhar, apenas mantém salario como 0.00, retorna um booleano in
 
 if-else:
 	Permite executar blocos de código diferentes com base em condições;
-	Exemplo:
+
 		int idade = 20;
 		if (idade >= 18)
 		{
@@ -50,7 +50,7 @@ if-else:
 
 Operadores aritméticos:
 	+ (adição), - (subtração), * (multiplicação), / (divisão), % (módulo);
-	Exemplo:
+
 		int x = 10;
 		int y = 3;
 		int soma = x + y; // 13
@@ -67,7 +67,7 @@ Atribuição composta de operadores *=, /=, += e -= (C# 14 e posterior)
 
 Operadores de comparação:
 	== (igualdade), != (diferença), > (maior que), < (menor que), >= (maior ou igual a), <= (menor ou igual a);
-	Exemplo:
+
 		int a = 5;
 		int b = 10;
 		bool resultado = a < b; // true
@@ -76,7 +76,7 @@ Operadores de comparação:
 
 Operadores lógicos:
 	&& (AND), || (OR), ! (NOT);
-	Exemplo:
+
 		bool condicao1 = true;
 		bool condicao2 = false;
 		bool resultado = condicao1 && condicao2; // false
@@ -84,7 +84,11 @@ Operadores lógicos:
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Manipulando datas e horas com DateTime:
+
 	DateTime dataAtual = DateTime.Now; // Obtém a data e hora atual
+
 	DateTime dataEspecifica = new DateTime(2024, 6, 1); // Cria uma data específica (1 de junho de 2024)
+	
 	TimeSpan diferenca = dataAtual - dataEspecifica; // Calcula a diferença entre duas datas
+	
 	Console.WriteLine($"Dias desde {dataEspecifica.ToShortDateString()}: {diferenca.Days}"); // Exibe a diferença em dias

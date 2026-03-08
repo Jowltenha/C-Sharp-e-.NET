@@ -11,6 +11,10 @@
 
   <ItemGroup>
     <Folder Include="Aula2.2\" />
+    <Folder Include="Aula3.1\" />
+    <Folder Include="Aula3.2\" />
+    <Folder Include="Aula4.1\" />
+    <Folder Include="Aula4.2\" />
   </ItemGroup>
 
 </Project>
