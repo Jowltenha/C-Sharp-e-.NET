@@ -17,6 +17,7 @@
     <Folder Include="Aula4.2\" />
     <Folder Include="Aula5.1\" />
     <Folder Include="Aula5.2\" />
+    <Folder Include="Aula6.2\" />
   </ItemGroup>
 
 </Project>
