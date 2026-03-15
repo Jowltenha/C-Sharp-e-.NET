@@ -1,37 +1,44 @@
-C# e .NET - Estudos e Exercícios
-Este repositório foi criado com o objetivo de centralizar meus estudos, revisões teóricas e a prática de lógica de programação utilizando a linguagem C# e o ecossistema .NET.
+# C# e .NET - Estudos e Exercícios
 
-📌 Sobre o Projeto
-O foco principal aqui é o desenvolvimento pessoal e a fixação de conceitos fundamentais e avançados. O conteúdo está organizado por tópicos de aula e módulos de exercícios, servindo como um diário de aprendizado técnico.
+Este repositório foi criado com o objetivo de centralizar meus estudos, revisões teóricas e a prática de lógica de programação utilizando a linguagem **C#** e o ecossistema **.NET**.
 
-🚀 Tecnologias Utilizadas
-Linguagem: C# (C-Sharp)
+---
 
-Framework: .NET
+## 📌 Sobre o Projeto
 
-IDE recomendada: Visual Studio 2022 ou VS Code
+O foco principal deste repositório é o **desenvolvimento pessoal** e a fixação de conceitos fundamentais e avançados. O conteúdo está organizado por tópicos de aula e módulos de exercícios, servindo como um diário de aprendizado técnico e evolução constante.
 
-📂 Estrutura do Repositório
+## 🚀 Tecnologias Utilizadas
+
+* **Linguagem:** C# (C-Sharp)
+* **Framework:** .NET
+* **IDE recomendada:** Visual Studio 2022 ou VS Code
+
+## 📂 Estrutura do Repositório
+
 Atualmente, o projeto está organizado da seguinte forma:
 
-C# e .NET/: Pasta principal contendo:
+* **Resumos:** Notas teóricas sobre sintaxe, tipos de dados, POO (Programação Orientada a Objetos), entre outros.
+* **Exercícios:** Implementações práticas de lógica e desafios de algoritmos.
+* **Projetos de Aula:** Códigos desenvolvidos durante o acompanhamento das aulas (atualmente até a **Aula 8**).
 
-Resumos: Notas teóricas sobre sintaxe, tipos de dados, POO (Programação Orientada a Objetos), etc.
+---
 
-Exercícios: Implementações práticas de lógica e desafios de algoritmos.
+## 🛠️ Como Executar
 
-Projetos de Aula: Códigos desenvolvidos durante o acompanhamento das aulas (atualmente até a Aula 8).
+Se desejar testar os exercícios localmente, siga os passos abaixo:
 
-🛠️ Como Executar
-Se desejar testar os exercícios localmente:
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/Jowltenha/C-Sharp-e-.NET.git](https://github.com/Jowltenha/C-Sharp-e-.NET.git)
+    ```
+2.  Abra o arquivo de solução (`.slnx` ou `.sln`) no **Visual Studio**.
+3.  Compile e execute o projeto desejado através do *Solution Explorer*.
 
-Clone o repositório:
+---
 
-Bash
+## 👤 Autor
 
-git clone https://github.com/Jowltenha/C-Sharp-e-.NET.git
-Abra o arquivo de solução .slnx ou .sln no Visual Studio.
+Desenvolvido por **João Pedro Barboza Rigoto Ferreira**.
 
-Compile e execute o projeto desejado.
-
-Feito por João Pedro Barboza Rigoto Ferreira
+> "A prática leva à perfeição, mas a constância leva ao domínio." 🚀
